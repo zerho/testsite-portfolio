@@ -96,7 +96,11 @@ header, footer, section, article, figure, aside, video, audio, hgroup, nav{displ
 	height: 600px;
 }
 .figure{
-	margin-left:11vw;
+	margin:auto;
+	display:flex;
+	flex-direction:column;
+	justify-content: center;
+	align-items:center;
 }
 
 .immagine-finestrino3{
@@ -113,12 +117,13 @@ h1{
     font-weight: bold;
 }
 
-.figure-caption{
+.figure-caption{	
  text-align:center;
  font-style: italic;
  font-size: 13px;
  font-weight: bold;
  color:black;
+ margin-bottom:20px;
 }
 
 h5{
@@ -198,12 +203,6 @@ header:hover{
 	}
 
 }
-@media screen and (max-width:480px){
-	.figure{
-		margin-left:13vw;
-	}
-   }
-
 
 .link-header{
 	padding: 15px;
