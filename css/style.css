@@ -51,6 +51,14 @@ header, footer, section, article, figure, aside, video, audio, hgroup, nav{displ
 	height: 600px;
 }
 
+.immagine-traccia2{
+	background-image: url('../images/MilanoMontagna_2_Ph.RobertaRanalli_Model.ClaudiaCapovilla.jpg');
+	background-size: cover;
+	background-position: left;
+	background-position: top;
+	height: 600px;
+}
+
 .immagine-vestitopattern{
 	background-image: url('../images/_MG_1562.jpg');
 	background-size: cover;
