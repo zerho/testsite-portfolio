@@ -8,11 +8,10 @@ header, footer, section, article, figure, aside, video, audio, hgroup, nav{displ
 .clear{clear: both;}
 .left{float: left;}
 
-.immagine-logo2{
-	background-image: url('../images/logo2.jpg');
-	background-size: cover;
-	background-position: center;
-	height: 500px;
+.immagine-logo{
+	margin-top:80px;
+	height:200px;
+	width:200px;
 }
 
 .immagine-chisonosfondo{
@@ -96,6 +95,9 @@ header, footer, section, article, figure, aside, video, audio, hgroup, nav{displ
 	background-position: top;
 	height: 600px;
 }
+.figure{
+	margin-left:11vw;
+}
 
 .immagine-finestrino3{
 	background-image: url('../images/IMG_7277.jpg');
@@ -111,9 +113,12 @@ h1{
     font-weight: bold;
 }
 
-.titolo-logo{
-	margin-top: 350px;
-	margin-left: 115px
+.figure-caption{
+ text-align:center;
+ font-style: italic;
+ font-size: 13px;
+ font-weight: bold;
+ color:black;
 }
 
 h5{
@@ -193,6 +198,12 @@ header:hover{
 	}
 
 }
+@media screen and (max-width:480px){
+	.figure{
+		margin-left:13vw;
+	}
+   }
+
 
 .link-header{
 	padding: 15px;
