@@ -1,0 +1,215 @@
+*{margin: 0px; padding: 0px;}
+html{font-size: 100%;}
+ul, ol{ list-style: none;}
+a, li{text-decoration: none !important;}
+a img{border:none !important;}
+body{font-family: Arial, Helvetica, sans-serif; font-size: 1em;}
+header, footer, section, article, figure, aside, video, audio, hgroup, nav{display: block;}
+.clear{clear: both;}
+.left{float: left;}
+
+.immagine-logo2{
+	background-image: url('../images/logo2.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 500px;
+}
+
+.immagine-chisonosfondo{
+	background-image: url('../images/Chisonosfondo.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 650px;
+}
+
+.immagine-skialper{
+	background-image: url('../images/skialper.jpg');
+	background-size: cover;
+	background-position: left;
+	height: 600px;
+}
+
+.immagine-vestitoblu{
+	background-image: url('../images/_MG_1546.jpg');
+	background-size: cover;
+	background-position: left;
+	height: 600px;
+}
+
+.immagine-samarate{
+	background-image: url('../images/IMG_7120.jpg');
+	background-size: cover;
+	background-position: left;
+	background-position: top;
+	height: 600px;
+}
+
+.immagine-traccia1{
+	background-image: url('../images/MilanoMontagna_14_Ph.ClaudiaCapovilla_Model.MatteoLonghin.jpg');
+	background-size: cover;
+	background-position: left;
+	background-position: top;
+	height: 600px;
+}
+
+.immagine-vestitopattern{
+	background-image: url('../images/_MG_1562.jpg');
+	background-size: cover;
+	background-position: left;
+	background-position: top;
+	height: 600px;
+}
+
+.immagine-monica{
+	background-image: url('../images/DSC_1119.jpg');
+	background-size: cover;
+	background-position: bottom;
+	height: 600px;
+}
+
+.immagine-monica2{
+	background-image: url('../images/DSC_1189.jpg');
+	background-size: cover;
+	background-position: bottom;
+	height: 600px;
+}
+
+.immagine-monica3{
+	background-image: url('../images/DSC_1020.jpg');
+	background-size: cover;
+	background-position: bottom;
+	height: 600px;
+}
+
+.immagine-finestrino1{
+	background-image: url('../images/IMG_7283.jpg');
+	background-size: cover;
+	background-position: left;
+	background-position: top;
+	height: 600px;
+}
+
+.immagine-finestrino2{
+	background-image: url('../images/IMG_7285.jpg');
+	background-size: cover;
+	background-position: left;
+	background-position: top;
+	height: 600px;
+}
+
+.immagine-finestrino3{
+	background-image: url('../images/IMG_7277.jpg');
+	background-size: cover;
+	background-position: left;
+	background-position: top;
+	height: 600px;
+}
+
+h1{
+	font-style: italic;
+	font-size: 15px;
+    font-weight: bold;
+}
+
+.titolo-logo{
+	margin-top: 350px;
+	margin-left: 115px
+}
+
+h5{
+	font-style: italic;
+	font-size: 13px;
+    font-weight: bold;
+}
+
+.titolo-sezione{
+	margin-top: 27px;
+}
+
+h2{
+	font-style: normal;
+	font-size: 12px;
+    font-weight: bold;
+}
+
+.titolo-sottosezione{
+	margin-top: 10px;
+}
+
+h3{
+	font-style: normal;
+	font-size: 11px;
+    font-weight: normal;
+    color: orange;
+}
+
+.titolo-progetto{
+	margin-top: 200px;
+}
+
+
+.descrizione{
+	margin-top: 50px;
+	font-size: 12px;
+    color: orange;
+    font-weight: bold;
+}
+
+.descrizione.blu{
+	color: blue;
+}
+
+.contenuto{
+	margin-top: 10px;
+    font-size: 12px;
+}
+
+header{
+	height: 50px;
+	overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+    font-size: 13px;
+    font-weight: normal;
+    background-color: white;
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.15);
+}
+
+header:hover{
+	height: 245px;
+	transition:height 0.5s;
+}
+
+@media screen and (min-width:1200px){
+	header{
+		height: 50px;
+	}
+	header:hover{
+		height: unset;
+		transition: none; 
+	}
+
+}
+
+.link-header{
+	padding: 15px;
+}
+
+.link-header a{
+	color: black;
+	text-transform: none;
+}
+
+.link-header a:hover{
+	color: black;
+	text-decoration: underline !important;
+}
+
+.row{
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.25);
+    box-shadow: -2px 3px 5px 0px rgba(0,0,0,0.25);
+}
